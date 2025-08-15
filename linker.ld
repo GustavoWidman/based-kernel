@@ -8,18 +8,9 @@ SECTIONS {
         KEEP(*(.multiboot))
     }
 
-    .text : {
-        *(.text .text.*)
-    }
-
-    .rodata : {
-        *(.rodata .rodata.*)
-    }
-
-    .data : {
-        *(.data .data.*)
-    }
-
+    .text : { *(.text .text.*) }
+    .rodata : { *(.rodata .rodata.*) }
+    .data : { *(.data .data.*) }
     .bss : {
         *(.bss .bss.*)
         *(COMMON)

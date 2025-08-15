@@ -38,6 +38,7 @@
             rustToolchain
             pkgsCross.gnu64.buildPackages.binutils
             grub-mkrescue
+            nushell
             qemu
           ];
         };
