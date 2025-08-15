@@ -71,8 +71,8 @@ _start:
 
 section .rodata
 gdt:
-    dq 0                ; null descriptor
-    dq 0x00209A0000000000  ; code segment
+    dq 0                    ; null descriptor
+    dq 0x00209A0000000000   ; code segment
 .ptr:
     dw $ - gdt - 1
     dq gdt

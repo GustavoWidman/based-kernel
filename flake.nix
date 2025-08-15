@@ -21,6 +21,7 @@
         };
 
         rustToolchain = pkgs.rust-bin.nightly.latest.default.override {
+          extensions = [ "rust-src" ];
           targets = [
             "x86_64-unknown-none"
           ];
