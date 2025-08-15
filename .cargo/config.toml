@@ -1,0 +1,11 @@
+[build]
+target = "x86_64-unknown-none"
+
+[target.x86_64-unknown-none]
+linker = "x86_64-unknown-linux-gnu-ld"
+runner = "./.cargo/run.nu"
+rustflags = [
+    "-C", "link-arg=-static",
+    "-C", "link-arg=-no-pie",
+    "-C", "target-feature=-sse,-sse2"
+]
