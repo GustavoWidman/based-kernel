@@ -11,5 +11,5 @@ def main [kernel_bin: string] {
 
     grub-mkrescue -o $"($kernel_bin | path dirname)/kernel.iso" $iso_dir
 
-    qemu-system-x86_64 -cdrom $"($kernel_bin | path dirname)/kernel.iso" -m 512M -boot d -display curses
+    qemu-system-x86_64 -machine q35 -device virtio-net-pci,netdev=net0 -netdev user,id=net0,hostfwd=tcp::5555-:5555 -cdrom $"($kernel_bin | path dirname)/kernel.iso" -m 512M -boot d -display curses
 }

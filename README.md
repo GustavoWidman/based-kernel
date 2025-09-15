@@ -8,9 +8,9 @@
 [![Bootloader](https://img.shields.io/badge/bootloader-GRUB2-green.svg)](https://www.gnu.org/software/grub/)
 [![Build System](https://img.shields.io/badge/build-Cargo%20%7C%20Make-purple.svg)](https://doc.rust-lang.org/cargo/)
 
-*An educational x86-64 kernel implementation in Rust with assembly bootstrapping*
+*An educational x86-64 kernel with interactive Tic-Tac-Toe game*
 
-[Overview](#-overview) • [Architecture](#-architecture) • [Building](#-building-and-running) • [Development](#-development-environment) • [Structure](#-project-structure)
+[Overview](#-overview) • [Features](#-features) • [Architecture](#-architecture) • [Building](#-building-and-running) • [Demo](#-demonstration) • [Development](#-development-environment) • [Structure](#-project-structure)
 
 </div>
 
@@ -18,7 +18,7 @@
 
 ## 📖 Overview
 
-**Based Kernel** is an educational bare-metal x86-64 kernel implementation that demonstrates fundamental operating system concepts using modern Rust programming practices. This project serves as a learning resource for understanding low-level systems programming, kernel development, and the interaction between assembly and high-level languages.
+This is an educational bare-metal x86-64 kernel implementation that demonstrates fundamental operating system concepts through an interactive gaming experience. Beyond basic kernel functionality, it features a fully playable Tic-Tac-Toe game with keyboard input, sophisticated VGA graphics, and comprehensive interrupt handling.
 
 ### Key Characteristics
 

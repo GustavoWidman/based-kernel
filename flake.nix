@@ -21,7 +21,10 @@
         };
 
         rustToolchain = pkgs.rust-bin.nightly.latest.default.override {
-          extensions = [ "rust-src" ];
+          extensions = [
+            "rust-src"
+            "rust-analyzer"
+          ];
           targets = [
             "x86_64-unknown-none"
           ];
@@ -37,8 +40,10 @@
           buildInputs = with pkgs; [
             rustToolchain
             pkgsCross.gnu64.buildPackages.binutils
+            pkgsCross.mingwW64.buildPackages.gcc
             grub-mkrescue
             nushell
+            mtools
             qemu
           ];
         };

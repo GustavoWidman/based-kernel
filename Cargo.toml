@@ -8,9 +8,19 @@ name = "kernel"
 path = "src/main.rs"
 
 [dependencies]
+anyhow = { version = "1.0.99", default-features = false }
+lazy_static = { version = "1.5.0", features = ["spin_no_std"] }
+pc-keyboard = "0.8.0"
+pic8259 = "0.11.0"
+spin = "0.10.0"
+talc = "4.4.3"
+x86_64 = { version = "0.15.2", features = ["instructions"] }
 
 [profile.dev]
+opt-level = 2
 panic = "abort"
 
 [profile.release]
 panic = "abort"
+lto = true
+opt-level = 3
