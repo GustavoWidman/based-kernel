@@ -436,23 +436,24 @@ sudo dd if=target/x86_64-unknown-none/release/kernel.iso of=/dev/sdX bs=4M statu
 - UEFI or BIOS with legacy boot support
 - VGA-compatible graphics for text output
 
-## 📸 Screenshots
+## 📸 Screenshots and Videos
 
 ### Boot Process
-<!-- Screenshot: GRUB boot menu showing "Rust Kernel (64-bit)" option -->
-TODO
 
-### Kernel Output
-<!-- Screenshot: VGA text showing "Hello from Rust kernel!" and "Kernel booted successfully!" messages -->
-TODO
+<img width="1512" height="893" alt="image" src="https://github.com/user-attachments/assets/8b1ed282-484b-4d06-ab2e-c0c3b952d3ef" />
+
+### Kernel Boot
+
+<img width="1512" height="893" alt="image" src="https://github.com/user-attachments/assets/1e2f1706-6103-480a-bd1d-999e464a7a44" />
+<img width="1512" height="893" alt="image" src="https://github.com/user-attachments/assets/c10caa85-8023-4a54-b6e9-987b70ff1faf" />
+
+### Full Game Interaction
+
+https://github.com/user-attachments/assets/cd50f218-ee71-4a0a-82f6-c21cab21af7a
 
 ### Development Workflow
-<!-- Screenshot: Terminal showing cargo run command execution and QEMU output -->
-TODO
 
-### QEMU Curses Display
-<!-- Screenshot: QEMU running in terminal with curses display mode -->
-TODO
+<img width="1512" height="833" alt="image" src="https://github.com/user-attachments/assets/1f70e532-10c4-4d9c-8213-0f331e3e15c6" />
 
 ## 📄 License
 
