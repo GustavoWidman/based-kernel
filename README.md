@@ -445,7 +445,6 @@ sudo dd if=target/x86_64-unknown-none/release/kernel.iso of=/dev/sdX bs=4M statu
 ### Kernel Boot
 
 <img width="1512" height="893" alt="image" src="https://github.com/user-attachments/assets/1e2f1706-6103-480a-bd1d-999e464a7a44" />
-<img width="1512" height="893" alt="image" src="https://github.com/user-attachments/assets/c10caa85-8023-4a54-b6e9-987b70ff1faf" />
 
 ### Full Game Interaction
 
