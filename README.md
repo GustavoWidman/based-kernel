@@ -281,11 +281,10 @@ The `flake.nix` provides a reproducible development environment:
 4. **QEMU Testing**
 
    ```bash
-   qemu-system-x86_64 -cdrom kernel.iso -m 512M -boot d -display curses
+   qemu-system-x86_64 -cdrom kernel.iso -m 512M -boot d
    ```
 
    - Boots kernel in x86_64 emulator
-   - Uses curses display for terminal compatibility
    - Allocates 512MB RAM for kernel
 
 ### Cross-Platform Development Notes
@@ -413,8 +412,7 @@ make run   # Alternative via Makefile
 qemu-system-x86_64 \
     -cdrom kernel.iso \
     -m 512M \
-    -boot d \
-    -display curses      # Terminal-friendly output
+    -boot d
 ```
 
 ### Real Hardware Testing
@@ -453,6 +451,10 @@ https://github.com/user-attachments/assets/cd50f218-ee71-4a0a-82f6-c21cab21af7a
 ### Development Workflow
 
 <img width="1512" height="833" alt="image" src="https://github.com/user-attachments/assets/1f70e532-10c4-4d9c-8213-0f331e3e15c6" />
+
+### [Project Overview and Code Explanation (in pt-br)](https://files.r3dlust.com/s/CHWwwcrxysyJq8k)
+
+Since the video file was way too big, please watch the video on my own dedicated file hosting server right [here](https://files.r3dlust.com/s/CHWwwcrxysyJq8k)
 
 ## 📄 License
 
