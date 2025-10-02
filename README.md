@@ -452,9 +452,10 @@ https://github.com/user-attachments/assets/cd50f218-ee71-4a0a-82f6-c21cab21af7a
 
 <img width="1512" height="833" alt="image" src="https://github.com/user-attachments/assets/1f70e532-10c4-4d9c-8213-0f331e3e15c6" />
 
-### [Project Overview and Code Explanation (in pt-br)](https://files.r3dlust.com/s/CHWwwcrxysyJq8k)
+### Project Overview and Code Explanation (in pt-br)
 
-Since the video file was way too big, please watch the video on my own dedicated file hosting server right [here](https://files.r3dlust.com/s/CHWwwcrxysyJq8k)
+https://github.com/user-attachments/assets/e3d63a81-d0fd-4dcf-83b1-d72a1f712422
+
 
 ## 📄 License
 
